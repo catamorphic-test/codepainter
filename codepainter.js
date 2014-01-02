@@ -68,3 +68,7 @@ module.exports.transform = function (input, style, output, callback) {
 module.exports.foo = function(bad,formatting) {
     console.log(bad);
 };
+
+module.exports.fbar = function(bad,formatting) {
+    console.log(formatting);
+};
