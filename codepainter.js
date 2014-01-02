@@ -64,3 +64,7 @@ module.exports.transform = function (input, style, output, callback) {
 
     input.resume();
 };
+
+module.exports.foo = function(bad,formatting) {
+    console.log(bad);
+};
