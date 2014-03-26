@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-const fs = require('fs');
-const optimist = require('optimist');
-const codepainter = require('../codepainter');
+var fs = require('fs');
+var optimist = require('optimist');
+var codepainter = require('../codepainter');
 
 var argv = optimist.options({
     'input': {

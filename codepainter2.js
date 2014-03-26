@@ -1,4 +1,4 @@
-const Pipe = require('./lib/Pipe'),
+var Pipe = require('./lib/Pipe'),
       rules = require('./lib/rules'),
       Serializer = require('./lib/Serializer'),
       Tokenizer = require('./lib/Tokenizer');

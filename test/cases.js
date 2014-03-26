@@ -1,9 +1,9 @@
-const assert = require('assert'),
+var assert = require('assert'),
 	  fs = require('fs'),
 	  path = require('path');
-const should = require('should');
-const codepainter = require('../codepainter');
-const casesRoot = path.join(__dirname, 'cases');
+var should = require('should');
+var codepainter = require('../codepainter');
+var casesRoot = path.join(__dirname, 'cases');
 
 var testCases = [
 	'quotes'
